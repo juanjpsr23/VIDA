@@ -1,0 +1,226 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.header{
+	background-image:url(../imagenes/pexels-casia-charlie-2433464.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.vh-50{
+	height: 50vmin;
+}
+.header .navbar {
+  background-color: transparent !important;
+}
+.nav-item{
+	text-decoration: none;
+	padding-right: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	transition: .5s;
+}
+
+
+.nav-item:hover{
+	transform: scale(1.2);
+	border-left: solid #FFFFFF ;
+}
+
+/*HOME-TEXT*/
+
+.btn-outline-dark{
+	color: #292929;
+}
+
+.btn-outline-dark:hover{
+	background-color: #027495;
+}
+
+
+/*QUIENES SOMOS*/
+
+.quienes-somos{
+	background-color: rgb(255, 255, 255);
+}
+
+
+
+/*FORO*/
+.form {
+  width: 400px;
+  background-color: #f0f0f0;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-shadow: 2px 5px 5px;
+          box-shadow: 2px 5px 5px;
+}
+
+.form .form__controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #2980B9;
+  font-family: 'Montserrat', sans-serif;
+  color: #3b3b3b;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.form .form__texto {
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  color: #3b3b3b;
+}
+
+.form .form__titulo {
+  color: #3b3b3b;
+}
+
+.form .form__button {
+  width: 100%;
+  padding: 12px;
+  color: #FFFFFF;
+  border: none;
+  margin: 16px 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  -webkit-transition-property: background-color,border-radius;
+  transition-property: background-color,border-radius;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.form__controls:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.form__button--hover:hover {
+  border-radius: 10px;
+  background-color: #004457;
+}
+
+.form__controls {
+  background-color: #eeeeee;
+}
+
+.form__button {
+  background-color: #027495;
+}
+
+.form__bg {
+  background-color: #f7f7f7;
+}
+
+/*TRABAJOS*/
+.oportunidades-bg{
+	background-color: #f7f7f7;
+}
+
+.contenedor-trabajos{
+	display: grid;
+	grid-template-areas: 
+	"nav oferta "
+	"nav oferta1 "
+	"nav oferta2 ";
+	height: 500px;
+	grid-gap: 20px;
+	grid-template-rows: 2fr 2fr 2fr;
+	grid-template-columns: 1fr 5fr;
+}
+.item{
+	border: 1px solid;
+}
+
+.oferta-laboral{
+	grid-area: oferta;
+}
+.oferta-laboral2{
+	grid-area: oferta2;
+}
+.oferta-laboral3{
+	grid-area: oferta3;
+}
+
+.nav-trabajos{
+	grid-area: nav;
+}
+
+/**/
+.card-img-filter{
+	filter: brightness(0.5);
+}
+.card{
+	transition-duration: .6s;	
+}
+
+.card-effect:hover .card{
+	transform: scale(1.05);
+	filter: grayscale(50%);
+}
+
+
+/*CONTACTANOS*/
+.form-contactanos{
+	font-family: 'Montserrat', sans-serif;
+	color:#3b3b3b;
+}
+.titulo{
+	text-align: center;
+	font-size: 3em;
+}
+
+.contact-form p{
+	margin-top: 5%;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color:#f7f7f7;
+	outline: none;
+	border-radius: 4px;
+
+}
+	
+.contact-form form button{
+	background-color:#027495;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+	color: #FFFFFF;
+}
+.contact-form form button:hover{
+	transform: scale(1.01);
+	transition: transform .4s;
+}
+
+.nav-item{
+	text-decoration: none;
+	padding-right: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.contact-form form input,
+textarea{
+	transition-duration: .4s;
+}
+
+.contact-form form input:hover,textarea:hover{
+	transform: scale(1.03);
+}
